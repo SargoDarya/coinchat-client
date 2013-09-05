@@ -1,5 +1,13 @@
 # CoinChat Client
 
+#### Easy Install
+
+    npm install coinchat-client
+    
+##### Help
+
+Refer to the sample in the sample folder.
+
 ##### License
                DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                        Version 2, December 2004
