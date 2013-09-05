@@ -1,0 +1,28 @@
+{
+  "name": "coinchat-client",
+  "version": "0.0.1",
+  "description": "The coinchat-client is a framework aiding to help writing automated clients for coinchat.org.",
+  "main": "coinchat-client.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sargodarya/coinchat-client"
+  },
+  "keywords": [
+    "coinchat",
+    "bot",
+    "client",
+    "framework"
+  ],
+  "author": "Sargo Darya",
+  "license": "WTFPLv2",
+  "bugs": {
+    "url": "https://github.com/sargodarya/coinchat-client/issues"
+  },
+  "devDependencies": {
+    "should": "*",
+    "mocha": "*"
+  }
+}
