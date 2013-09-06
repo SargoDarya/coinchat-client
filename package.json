@@ -1,6 +1,6 @@
 {
   "name": "coinchat-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The coinchat-client is a framework aiding to help writing automated clients for coinchat.org.",
   "main": "lib/coinchat-client.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "url": "https://github.com/sargodarya/coinchat-client/issues"
   },
   "dependencies": {
-    "socket.io-client": "*" 
+    "socket.io-client": "*"
   },
   "devDependencies": {
     "should": "*",
