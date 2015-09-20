@@ -13,7 +13,10 @@ client.register(function(msg) {
 // Connect to server and join botgames
 client.connect(function() {
   console.log('Connected to server');
-  client.join('botgames');
+  client.login(function(data) {
+    console.log('logged in');
+    client.join('main');
+  });
 });
 
 // When Ctrl+C is pressed, exit gracefully
